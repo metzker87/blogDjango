@@ -1,3 +1,11 @@
+/dajngoapp/static/
+/dajngoapp/media/
+/dajngoapp/project/local_settings.py
+gunicorn-error-log
+__localcode
+/data/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
