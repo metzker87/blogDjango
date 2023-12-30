@@ -4,7 +4,8 @@
 gunicorn-error-log
 __localcode
 /data/
-
+.bashrc
+.zshrc
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
