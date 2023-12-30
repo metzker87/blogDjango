@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -84,7 +85,7 @@ DATABASES = {
         'USER': os.getenv('POSTGRES_USER', 'change-me'),
         'PASSWORD': os.getenv('POSTGRES_PASSWORD', 'change-me'),
         'HOST': os.getenv('POSTGRES_HOST', 'change-me'),
-        'PORT': os.getenv('POSTGRES_PORT', 'change-me')
+        'PORT': os.getenv('POSTGRES_PORT', 'change-me'),
     }
 }
 
